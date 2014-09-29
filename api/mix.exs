@@ -12,7 +12,8 @@ defmodule Api.Mixfile do
   #
   # Type `mix help compile.app` for more information
   def application do
-    [applications: [:cowboy, :plug, :jazz, :logger, :api]]
+    [applications: [:cowboy, :plug, :jazz, :logger],
+     mod: {Api, []}]
   end
 
   # Dependencies can be Hex packages:
