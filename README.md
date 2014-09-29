@@ -10,22 +10,22 @@ and an HTML5 application with separate build systems.
 
 ### Installing the various dependencies:
 
- $ cd api/
- $ mix deps.get
- $ cd ../
-
- $ cd web/
- $ npm install
- $ bower install
- $ cd ../
-
- $ cd dev/
- $ npm install 
- $ cd ../
+    $ cd api/
+    $ mix deps.get
+    $ cd ../
+   
+    $ cd web/
+    $ npm install
+    $ bower install
+    $ cd ../
+   
+    $ cd dev/
+    $ npm install 
+    $ cd ../
 
 ### Running everything
 
- $ foreman start
+    $ foreman start
 
 
 The proxy server is running at http://localhost:5050/. The static
